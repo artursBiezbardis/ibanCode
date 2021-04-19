@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/kasko",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "biezais",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "require": {
+    "jschaedl/iban-validation": "^1.7",
+    "phpunit/phpunit": "^9.5"
+  }
+}
